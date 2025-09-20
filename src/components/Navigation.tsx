@@ -7,8 +7,7 @@ import {
   FileText, 
   Settings, 
   Menu, 
-  X,
-  Shield
+  X
 } from "lucide-react";
 
 const Navigation = () => {
@@ -34,7 +33,11 @@ const Navigation = () => {
             transition={{ duration: 0.5 }}
           >
             <div className="p-2 bg-gradient-primary rounded-lg shadow-soft">
-              <Shield className="w-6 h-6 text-primary-foreground" />
+              <img 
+                src="/logo.ico" 
+                alt="Compliance Cockpit Logo" 
+                className="w-6 h-6"
+              />
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">
